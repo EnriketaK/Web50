@@ -1,5 +1,6 @@
 h1 {
   text-align: center;
+  padding-top: 25px;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -22,11 +23,10 @@ body ul {
 }
 body img {
   position: relative;
-  left: 200px;
-  top: -100px;
-  width: 30% auto;
-  height: 30% auto;
-  border: none;
+  left: 120px;
+  top: 0px;
+  width: 45% auto;
+  height: 45% auto;
 }
 
 /*# sourceMappingURL=style.css.map */
