@@ -14,6 +14,19 @@ body p {
 body ul {
   text-align: center;
   text-color: black;
+  list-style-type: none;
+  /* Remove bullets */
+  padding: 0;
+  /* Remove padding */
+  margin: 0;
+}
+body img {
+  position: relative;
+  left: 200px;
+  top: -100px;
+  width: 30% auto;
+  height: 30% auto;
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */
