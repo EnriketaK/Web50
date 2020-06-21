@@ -1,6 +1,10 @@
 h1 {
   text-align: center;
-  color: purple;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  height: 15% auto;
+  width: 15% auto;
 }
 
 /*# sourceMappingURL=style.css.map */
