@@ -14,7 +14,7 @@ body #moon-img {
   float: right;
   margin-left: 35px;
   margin-top: 2%;
-  margin-right: 4%;
+  margin-right: 5%;
   width: 31%;
   height: 26%;
 }
@@ -22,7 +22,7 @@ body .row > div {
   padding: 5px;
   text-align: center;
   background-color: white;
-  border: 2px black;
+  border: 1px solid black;
   font-family: "Arial", Helvetica, sans-serif;
   color: white;
 }
