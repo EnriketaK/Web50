@@ -5,7 +5,7 @@ body div .main-txt, body div #first-p {
   font-family: "Arial", Helvetica, sans-serif;
 }
 
-h1 {
+body h1 {
   text-align: center;
   padding-top: 10px;
   color: black;
@@ -15,8 +15,7 @@ h1 {
   width: 100%;
   /*when using float: add width: 100%; after it. Floating will kill your desired center alignment.*/
 }
-
-body .top-p {
+body .top-txt {
   text-align: center;
   text-color: black;
   font-family: "Arial", Helvetica, sans-serif;
