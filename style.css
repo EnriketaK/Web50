@@ -33,18 +33,25 @@ body div #jupiter-img {
   width: 45%;
   height: 45%;
 }
+body div #first-p {
+  padding-top: 2%;
+}
 @media (max-width: 768px) {
   body div #jupiter-img {
-    width: 100%;
-    height: 100%;
+    width: 85%;
+    height: 85%;
   }
-  body div h1 {
+  body .row > div {
+    padding: 4px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+  }
+
+  h1 {
     height: 12%;
     width: 12%;
   }
-}
-body div #first-p {
-  padding-top: 2%;
 }
 
 /*# sourceMappingURL=style.css.map */
