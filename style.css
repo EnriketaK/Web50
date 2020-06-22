@@ -39,8 +39,10 @@ body #maintxt {
   padding: 10px;
   width: 35%;
   height: 25%;
-  text-align: right;
+  text-align: justify;
   padding-right: 10%;
+  padding-bottom: -10%;
+  padding-left: -50%;
 }
 
 /*# sourceMappingURL=style.css.map */
