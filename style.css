@@ -21,10 +21,9 @@ body ul {
   /* Remove padding */
   margin: 0;
 }
-body img {
-  floar: left;
-  left: 5%;
-  top: 30px;
+body .main-img-txt img {
+  float: left;
+  margin: 5% 10%;
   width: 45%;
   height: 45%;
 }
@@ -33,10 +32,6 @@ body .row > div {
   text-align: center;
   background-color: white;
   border: 2px solid black;
-}
-body .main-img-txt p {
-  text-align: justify;
-  margin-right: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
