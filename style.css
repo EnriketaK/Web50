@@ -34,10 +34,9 @@ body .row > div {
   background-color: white;
   border: 2px solid black;
 }
-body #maintxt {
-  float: left;
+body .main-img-txt p {
+  text-align: justify;
   margin-right: 20px;
-  vertical-align: middle;
 }
 
 /*# sourceMappingURL=style.css.map */
