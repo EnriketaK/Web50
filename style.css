@@ -35,11 +35,11 @@ body .row > div {
   border: 2px solid black;
 }
 body #maintxt {
-  text-align: right;
+  text-align: justify;
   width: 35%;
   height: 25%;
-  padding-right: 10%;
-  padding-top: 25%;
+  padding-left: 30%;
+  padding-top: 5%;
   /* center the top of child elements vetically */
   padding-bottom: 10%;
 }
