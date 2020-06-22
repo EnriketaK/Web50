@@ -32,7 +32,7 @@ body div #main-txt {
   text-align: justify;
   padding-top: 3%;
   padding-right: 4%;
-  padding-left: 5%;
+  padding-left: 25px;
 }
 body .row > div {
   padding: 5px;
