@@ -36,6 +36,10 @@ body .row > div {
 }
 body #maintxt {
   text-align: justify;
+  padding: 10px;
+  width: 25%;
+  height: 25%;
+  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */
