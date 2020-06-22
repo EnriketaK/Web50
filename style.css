@@ -1,3 +1,10 @@
+body div .main-txt, body div #first-p {
+  text-align: justify;
+  padding-right: 4%;
+  padding-left: 4%;
+  font: Arial, Helvetica, sans-serif;
+}
+
 h1 {
   text-align: center;
   padding-top: 10px;
@@ -29,10 +36,8 @@ body div #jupiter-img {
   width: 45%;
   height: 45%;
 }
-body div .main-txt {
-  text-align: justify;
-  padding-right: 4%;
-  padding-left: 4%;
+body div #first-p {
+  padding-top: 3%;
 }
 body .row > div {
   padding: 5px;
