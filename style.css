@@ -5,12 +5,6 @@ body div .main-txt, body div #first-p {
   font: "Lucida Sans", sans-serif;
 }
 
-@media (max-width: 600px) {
-  #jupiter-img {
-    width: 100%;
-    height: 100%;
-  }
-}
 h1 {
   text-align: center;
   padding-top: 10px;
@@ -50,6 +44,13 @@ body .row > div {
   text-align: center;
   background-color: white;
   border: 2px solid black;
+}
+
+@media (max-width: 600px) {
+  #jupiter-img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
