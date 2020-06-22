@@ -29,7 +29,7 @@ body div #jupiter-img {
   width: 45%;
   height: 45%;
 }
-body div #main-txt {
+body div .main-txt {
   text-align: justify;
   padding-top: 3%;
   padding-right: 4%;
