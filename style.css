@@ -22,7 +22,7 @@ body ul {
   margin: 0;
 }
 body img {
-  position: relative;
+  floar: left;
   left: 5%;
   top: 30px;
   width: 45%;
