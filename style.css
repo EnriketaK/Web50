@@ -11,8 +11,8 @@ h1 {
   color: black;
   font-family: "Lucida Sans", sans-serif;
   font-weight: bold;
-  height: 15% auto;
-  width: 15% auto;
+  height: 15%;
+  width: 15%;
 }
 
 body p {
@@ -46,11 +46,6 @@ body div #first-p {
     text-align: center;
     background-color: white;
     border: 1px solid black;
-  }
-
-  h1 {
-    height: 12%;
-    width: 12%;
   }
 }
 
