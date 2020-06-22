@@ -23,7 +23,8 @@ body ul {
 }
 body .main-img-txt img {
   float: left;
-  margin: 5% 10%;
+  margin-left: 5%;
+  margin-top: 10%;
   width: 45%;
   height: 45%;
 }
