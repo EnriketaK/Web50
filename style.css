@@ -13,6 +13,7 @@ h1 {
   font-weight: bold;
   height: 15%;
   width: 100%;
+  /*when using float: add width: 100%; after it. Floating will kill your desired center alignment.*/
 }
 
 body p {
@@ -36,11 +37,13 @@ body div #jupiter-img {
 body div #first-p {
   padding-top: 2%;
 }
-@media (max-width: 768px) {
-  h1 {
-    width: 90%;
-  }
+body span {
+  height: 1%;
+  width: 1%;
+  vertical-align: bottom;
+}
 
+@media (max-width: 768px) {
   body div #jupiter-img {
     width: 92%;
     height: 90%;
