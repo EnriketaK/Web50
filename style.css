@@ -37,6 +37,10 @@ body div #first-p {
   padding-top: 2%;
 }
 @media (max-width: 768px) {
+  h1 {
+    width: 90%;
+  }
+
   body div #jupiter-img {
     width: 92%;
     height: 90%;
