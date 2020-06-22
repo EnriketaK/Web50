@@ -40,6 +40,7 @@ body div #first-p {
   body div #jupiter-img {
     width: 85%;
     height: 85%;
+    text-align: center;
     margin-right: 4%;
   }
   body .row > div {
