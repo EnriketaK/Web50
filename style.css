@@ -13,6 +13,8 @@ h1 {
   font-weight: bold;
   height: 15%;
   width: 35%;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 body p {
@@ -40,6 +42,7 @@ body div #first-p {
   body div #jupiter-img {
     width: 85%;
     height: 85%;
+    float: center;
   }
   body .row > div {
     padding: 4px;
