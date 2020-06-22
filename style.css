@@ -37,10 +37,11 @@ body div #jupiter-img {
 body div #first-p {
   padding-top: 2%;
 }
-body span {
+body div a {
   height: 1%;
   width: 1%;
-  vertical-align: bottom;
+  text-align: center;
+  display: block;
 }
 
 @media (max-width: 768px) {
