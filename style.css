@@ -25,6 +25,7 @@ body div #jupiter-img {
   float: left;
   margin-left: 4%;
   margin-top: 2%;
+  margin-right: 20px;
   width: 45%;
   height: 45%;
 }
@@ -32,7 +33,6 @@ body div #main-txt {
   text-align: justify;
   padding-top: 3%;
   padding-right: 4%;
-  padding-left: 25px;
 }
 body .row > div {
   padding: 5px;
