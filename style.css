@@ -19,14 +19,11 @@ body p {
   text-align: center;
   text-color: black;
 }
-body ul {
+body .row > div {
+  padding: 5px;
   text-align: center;
-  text-color: black;
-  list-style-type: none;
-  /* Remove bullets */
-  padding: 0;
-  /* Remove padding */
-  margin: 0;
+  background-color: white;
+  border: 2px solid black;
 }
 body div #jupiter-img {
   float: left;
@@ -36,21 +33,18 @@ body div #jupiter-img {
   width: 45%;
   height: 45%;
 }
-body div #first-p {
-  padding-top: 2%;
-}
-body .row > div {
-  padding: 5px;
-  text-align: center;
-  background-color: white;
-  border: 2px solid black;
-}
-
 @media (max-width: 768px) {
-  div #jupiter-img {
+  body div #jupiter-img {
     width: 100%;
     height: 100%;
   }
+  body div h1 {
+    height: 12%;
+    width: 12%;
+  }
+}
+body div #first-p {
+  padding-top: 2%;
 }
 
 /*# sourceMappingURL=style.css.map */
