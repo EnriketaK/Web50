@@ -35,13 +35,9 @@ body .row > div {
   border: 2px solid black;
 }
 body #maintxt {
-  text-align: justify;
-  width: 35%;
-  height: 25%;
-  padding-left: 30%;
-  padding-top: 5%;
-  /* center the top of child elements vetically */
-  padding-bottom: 10%;
+  float: left;
+  margin-right: 20px;
+  vertical-align: middle;
 }
 
 /*# sourceMappingURL=style.css.map */
