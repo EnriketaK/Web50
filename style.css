@@ -23,14 +23,15 @@ body ul {
 }
 body div #jupiter-img {
   float: left;
-  margin-left: 2%;
-  margin-top: 5%;
+  margin-left: 4%;
+  margin-top: 2%;
   width: 45%;
   height: 45%;
 }
 body div #main-txt {
-  padding-top: 2%;
-  padding-right: 1%;
+  padding-top: 3%;
+  padding-right: 3%;
+  padding-left: 2%;
 }
 body .row > div {
   padding: 5px;
