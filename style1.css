@@ -15,14 +15,14 @@ body #moon-img {
   margin-left: 35px;
   margin-top: 3%;
   margin-right: 4%;
-  width: 34%;
-  height: 35%;
+  width: 33%;
+  height: 34%;
 }
 body .row > div {
   padding: 5px;
   text-align: center;
   background-color: white;
-  border: 2px white;
+  border: 2px black;
   font-family: "Arial", Helvetica, sans-serif;
   color: white;
 }
