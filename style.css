@@ -51,6 +51,10 @@ body .card2 {
   margin-right: 4%;
   margin-top: 30%;
 }
+body .flex-container {
+  display: flex;
+  flex-direction: column;
+}
 
 @media (max-width: 768px) {
   body div #jupiter-img {
