@@ -41,4 +41,12 @@ body #moon-img {
   height: 26%;
 }
 
+@media (max-width: 768px) {
+  body #moon-img {
+    width: 90%;
+    height: 90%;
+    margin-top: 6%;
+  }
+}
+
 /*# sourceMappingURL=style1.css.map */
