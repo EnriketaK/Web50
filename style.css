@@ -61,13 +61,14 @@ body table, body th, body td {
   border: 1px solid black;
 }
 body table {
-  width: 40%;
+  width: 50%;
   margin-left: 4%;
   margin-top: 2%;
 }
 body th, body td {
   text-align: center;
-  padding: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   padding-left: 2%;
   padding-right: 2%;
 }
