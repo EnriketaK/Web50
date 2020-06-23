@@ -94,8 +94,9 @@ body th, body td {
     font-size: 75%;
   }
   body th, body td {
-    padding-left: 6%;
-    padding-right: 6%;
+    width: 85%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
