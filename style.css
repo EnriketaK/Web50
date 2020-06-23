@@ -27,6 +27,9 @@ body .row > div {
   border: 2px solid black;
   font-family: "Arial", Helvetica, sans-serif;
 }
+body .row > div a {
+  color: black;
+}
 body div #jupiter-img {
   float: left;
   margin-left: 4%;
