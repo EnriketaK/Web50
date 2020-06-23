@@ -94,11 +94,8 @@ body th, body td {
     font-size: 75%;
   }
   body th, body td {
-    text-align: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
   }
 }
 
