@@ -49,7 +49,7 @@ body .card1 {
 body .card2 {
   float: right;
   margin-right: 4%;
-  margin-top: 20%;
+  margin-top: 30%;
 }
 
 @media (max-width: 768px) {
