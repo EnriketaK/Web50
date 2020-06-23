@@ -1,4 +1,4 @@
-body div .second-txt, body div .main-txt, body div #first-p {
+body .second-txt, body div .main-txt, body div #first-p {
   text-align: justify;
   padding-right: 4%;
   padding-left: 4%;
@@ -41,9 +41,6 @@ body div #jupiter-img {
 body div #first-p {
   padding-top: 2%;
 }
-body div .second-txt {
-  padding-top: 2%;
-}
 body .flex-container {
   display: flex;
   flex-direction: column;
@@ -55,6 +52,9 @@ body .flex-container .card {
 }
 body .flex-container .card2 {
   margin-top: 10px;
+}
+body .second-txt {
+  padding-top: 2%;
 }
 
 @media (max-width: 768px) {
