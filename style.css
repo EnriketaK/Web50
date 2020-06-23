@@ -41,6 +41,12 @@ body div #jupiter-img {
 body div #first-p {
   padding-top: 2%;
 }
+body div .card {
+  float: right;
+  margin-right: 4%;
+  margin-top: 2%;
+}
+
 @media (max-width: 768px) {
   body div #jupiter-img {
     width: 92%;
