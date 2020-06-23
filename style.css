@@ -67,7 +67,7 @@ body table {
 }
 body th, body td {
   text-align: center;
-  padding: 2%;
+  padding: 3%;
 }
 
 @media (max-width: 768px) {
