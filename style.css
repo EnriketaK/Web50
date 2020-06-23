@@ -57,15 +57,10 @@ body .flex-container .card2 {
 body .second-txt {
   padding-top: 2%;
 }
-body table {
-  width: 40%;
-  margin-left: 4%;
-  margin-top: 2%;
-}
-body table th td {
+body table, body th, body td {
   border: 1px solid black;
 }
-body th td {
+body th, body td {
   text-align: center;
   padding: 2%;
 }
