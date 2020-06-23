@@ -45,7 +45,7 @@ body .flex-container {
   display: flex;
   flex-direction: column;
   float: right;
-  margin-left: 4%;
+  margin-right: 4%;
 }
 body .flex-container .card2 {
   margin-top: 10px;
