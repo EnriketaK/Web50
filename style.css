@@ -47,8 +47,6 @@ body .flex-container {
   float: right;
   margin-right: 4%;
   margin-left: 30px;
-  border: 2px solid black;
-  /*border*/
 }
 body .flex-container .card1 {
   margin-top: 8%;
@@ -58,6 +56,15 @@ body .flex-container .card2 {
 }
 body .second-txt {
   padding-top: 2%;
+}
+body table th td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+  width: 40%;
+  height: 40%;
+  padding-left: 4%;
 }
 
 @media (max-width: 768px) {
