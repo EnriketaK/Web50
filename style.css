@@ -44,6 +44,10 @@ body div #first-p {
 body .flex-container {
   display: flex;
   flex-direction: column;
+  float: right;
+}
+body .flex-container .card2 {
+  margin-top: 10px;
 }
 
 @media (max-width: 768px) {
