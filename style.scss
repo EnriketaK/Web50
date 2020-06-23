@@ -1,0 +1,138 @@
+$primary-color: black;
+$primary-centering: center;
+$default-font: "Arial", Helvetica, sans-serif;
+
+%p-style {
+    text-align: justify;
+    padding-right: 4%;
+    padding-left: 4%;
+    font-family: $default-font;
+}
+
+body {
+    h1 {
+        text-align: $primary-centering;
+        padding-top: 10px;
+        color: $primary-color;
+        font-family: $default-font;
+        font-weight: bold;
+        height: 15%;
+        width: 100%; /*when using float: add width: 100%; after it. Floating will kill your desired center alignment.*/
+    }
+
+    .top-txt{
+        text-align: $primary-centering; 
+        text-color: $primary-color; 
+        font-family: $default-font;
+    }
+
+    .row > div {
+        padding: 5px;
+        text-align: $primary-centering;
+        background-color: white;
+        border: 2px solid black;
+        font-family: $default-font;
+
+        a {
+            color: black;
+        }
+    }
+
+    div 
+    {
+        #jupiter-img {
+            float: left; 
+            margin-left: 4%;
+            margin-top: 2%;
+            margin-right: 30px;
+            width: 45%; 
+            height: 45%; 
+        }
+
+        #first-p {
+            @extend %p-style;
+            padding-top: 2%;
+        }
+
+        .main-txt {
+            @extend %p-style;
+        }
+    }
+    .flex-container {
+        display: flex;
+        width: 18rem;
+        flex-direction: column;
+        float: right;
+        margin-right: 4%;
+        margin-left: 30px;
+
+        .card1 {
+            margin-top: 8%;
+        }
+
+        .card2 {
+            margin-top: 10px;
+        }
+      }
+
+      .second-txt {
+        @extend %p-style;
+        padding-top: 2%;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    table {
+        width: 50%;
+        margin-left: 4%;
+        margin-top: 2%;
+    }
+
+    th, td {
+        text-align: $primary-centering;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+@media  (max-width: 768px) {
+    body {
+        div {
+            #jupiter-img {
+                width: 92%;
+                height: 90%;
+                text-align: center;
+                margin-right: 4%;
+            }
+        }
+
+        .row > div {
+            padding: 4px;
+            text-align: $primary-centering;
+            background-color: white;
+            border: 1px solid black;
+        }
+
+        .flex-container {
+            width: 35%;
+            
+            .card-text {
+                font-size: 80%;
+            }
+        }
+
+        table {
+            width: 95%;
+            th, td {
+                font-size: 80%;
+            }
+        }
+
+    }
+}
+
+

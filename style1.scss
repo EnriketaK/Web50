@@ -1,0 +1,72 @@
+$primary-color: white;
+$primary-centering: center;
+$default-font: "Arial", Helvetica, sans-serif;
+
+%p-style {
+    text-align: justify;
+    padding-right: 4%;
+    padding-left: 4%;
+    font-family: $default-font;
+    color: $primary-color;
+}
+
+
+body {
+    background-color: black;
+
+    h1 {
+        text-align: $primary-centering;
+        padding-top: 10px;
+        color: $primary-color;
+        font-family: $default-font;
+        font-weight: bold;
+        height: 15%;
+        width: 100%; 
+    }
+
+    .row > div {
+        padding: 5px;
+        text-align: $primary-centering;
+        background-color: $primary-color;
+        border: 1px solid black;
+        font-family: $default-font;
+        color: $primary-color;
+
+        a {
+            color: black;
+        }
+    }
+
+    div 
+    {
+        @extend %p-style;
+
+        #first-p {
+            padding-top: 2%;
+        }
+
+        .list-header {
+            font-weight: bold;
+        }
+    }
+
+    #moon-img {
+        float: right;
+        margin-left: 35px;
+        margin-right: 5%;
+        margin-top: 2%;
+        width: 31%;
+        height: 27%;
+    }
+}
+@media  (max-width: 768px) {
+    body {
+        #moon-img {
+            width: 90%;
+            height: 90%;
+            margin-top: 2%;
+        }
+    }
+
+}
+
