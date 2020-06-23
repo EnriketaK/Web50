@@ -43,6 +43,7 @@ body div #first-p {
 }
 body .flex-container {
   display: flex;
+  width: 18rem;
   flex-direction: column;
   float: right;
   margin-right: 4%;
