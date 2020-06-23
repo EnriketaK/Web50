@@ -64,7 +64,7 @@ body table {
 }
 body table th td {
   border: 1px solid black;
-  border-collapse: collapse;
+  border-collapse: separate;
 }
 body th td {
   text-align: center;
