@@ -29,6 +29,9 @@ body .row > div {
 body div #first-p {
   padding-top: 2%;
 }
+body div .list-header {
+  font-weight: bold;
+}
 body #moon-img {
   float: right;
   margin-left: 35px;
