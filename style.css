@@ -93,10 +93,8 @@ body th, body td {
   body .flex-container .card-text {
     font-size: 75%;
   }
-  body th, body td {
+  body table {
     width: 85%;
-    padding-left: 5%;
-    padding-right: 5%;
   }
 }
 
