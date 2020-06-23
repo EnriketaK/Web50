@@ -43,9 +43,12 @@ body #moon-img {
 
 @media (max-width: 768px) {
   body #moon-img {
+    float: none;
     width: 90%;
     height: 90%;
-    margin-top: 6%;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
