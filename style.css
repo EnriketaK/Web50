@@ -90,9 +90,6 @@ body th, body td {
   body .flex-container {
     width: 35%;
   }
-  body .flex-container .card-body {
-    width: 80%;
-  }
   body th, body td {
     text-align: center;
     padding-top: 1%;
