@@ -37,7 +37,8 @@ body #moon-img {
   float: right;
   margin-left: 35px;
   margin-right: 5%;
-  width: 100%;
+  margin-top: -2%;
+  width: 31%;
   height: 26%;
 }
 
