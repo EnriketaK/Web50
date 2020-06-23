@@ -60,6 +60,11 @@ body .second-txt {
 body table, body th, body td {
   border: 1px solid black;
 }
+body table {
+  width: 40%;
+  margin-left: 4%;
+  margin-top: 2%;
+}
 body th, body td {
   text-align: center;
   padding: 2%;
