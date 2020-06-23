@@ -28,7 +28,6 @@ body .row > div {
 }
 body div #first-p {
   padding-top: 2%;
-  padding-right: 39%;
 }
 body div .list-header {
   font-weight: bold;
@@ -39,7 +38,7 @@ body #moon-img {
   margin-right: 5%;
   margin-top: 3%;
   width: 31%;
-  height: 30%;
+  height: 27%;
 }
 
 @media (max-width: 768px) {
@@ -49,7 +48,7 @@ body #moon-img {
     margin-top: 12%;
   }
   body div #first-p {
-    padding-top: -10%;
+    padding-top: -20%;
   }
 }
 
