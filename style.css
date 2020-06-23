@@ -41,16 +41,6 @@ body div #jupiter-img {
 body div #first-p {
   padding-top: 2%;
 }
-body .card1 {
-  float: right;
-  margin-right: 4%;
-  margin-top: 2%;
-}
-body .card2 {
-  float: right;
-  margin-right: 4%;
-  margin-top: 30%;
-}
 body .flex-container {
   display: flex;
   flex-direction: column;
