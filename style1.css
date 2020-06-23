@@ -29,7 +29,7 @@ body .row > div {
 body div #first-p {
   padding-top: 2%;
   text-indent: 15px;
-  padding-right: 37%;
+  padding-right: 38%;
 }
 body div .list-header {
   font-weight: bold;
@@ -48,6 +48,9 @@ body #moon-img {
     width: 90%;
     height: 90%;
     margin-top: 12%;
+  }
+  body #first-p {
+    padding-right: 4%;
   }
 }
 
