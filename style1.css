@@ -1,4 +1,4 @@
-body div .main-txt, body div #first-p {
+body div {
   text-align: justify;
   padding-right: 4%;
   padding-left: 4%;
@@ -28,6 +28,12 @@ body .row > div {
 }
 body div #first-p {
   padding-top: 2%;
+}
+body div .main-txt {
+  padding-left: 4%;
+}
+body div .list-items {
+  padding-left: 4.5%;
 }
 body #moon-img {
   float: right;

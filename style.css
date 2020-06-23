@@ -1,45 +1,56 @@
-body div .list-header, body div .main-txt, body div #first-p {
+body div .main-txt, body div #first-p {
   text-align: justify;
   padding-right: 4%;
   padding-left: 4%;
   font-family: "Arial", Helvetica, sans-serif;
-  color: white;
 }
 
-body {
-  background-color: black;
-}
 body h1 {
   text-align: center;
   padding-top: 10px;
-  color: white;
+  color: black;
   font-family: "Arial", Helvetica, sans-serif;
   font-weight: bold;
   height: 15%;
   width: 100%;
+  /*when using float: add width: 100%; after it. Floating will kill your desired center alignment.*/
+}
+body .top-txt {
+  text-align: center;
+  text-color: black;
+  font-family: "Arial", Helvetica, sans-serif;
 }
 body .row > div {
   padding: 5px;
   text-align: center;
   background-color: white;
-  border: 1px solid black;
+  border: 2px solid black;
   font-family: "Arial", Helvetica, sans-serif;
-  color: white;
+}
+body div #jupiter-img {
+  float: left;
+  margin-left: 4%;
+  margin-top: 2%;
+  margin-right: 30px;
+  width: 45%;
+  height: 45%;
 }
 body div #first-p {
   padding-top: 2%;
 }
-body div .list-header {
-  height: 4%;
-  width: 100%;
-}
-body #moon-img {
-  float: right;
-  margin-left: 35px;
-  margin-top: 2%;
-  margin-right: 5%;
-  width: 31%;
-  height: 26%;
+@media (max-width: 768px) {
+  body div #jupiter-img {
+    width: 92%;
+    height: 90%;
+    text-align: center;
+    margin-right: 4%;
+  }
+  body .row > div {
+    padding: 4px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
