@@ -96,7 +96,7 @@ body th, body td {
   body table {
     width: 95%;
   }
-  body table th, body table td {
+  body th, body td {
     font-size: 65%;
   }
 }
